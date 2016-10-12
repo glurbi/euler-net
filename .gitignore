@@ -3,3 +3,8 @@
 ################################################################################
 
 /euler/bin/Debug
+/euler/obj/Debug
+/euler/.vs/euler/v14
+/problem-20/obj/Debug
+/problem-20/bin/Debug
+/.vs/euler/v14
