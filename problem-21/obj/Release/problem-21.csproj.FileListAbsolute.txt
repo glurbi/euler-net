@@ -1,0 +1,5 @@
+D:\Vincent\Projects\euler-net\problem-21\bin\Release\problem-21.exe.config
+D:\Vincent\Projects\euler-net\problem-21\bin\Release\problem-21.exe
+D:\Vincent\Projects\euler-net\problem-21\bin\Release\problem-21.pdb
+D:\Vincent\Projects\euler-net\problem-21\obj\Release\problem-21.exe
+D:\Vincent\Projects\euler-net\problem-21\obj\Release\problem-21.pdb
