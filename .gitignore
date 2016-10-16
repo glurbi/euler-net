@@ -2,13 +2,7 @@
 # Ce fichier .gitignore a été automatiquement créé par Microsoft(R) Visual Studio.
 ################################################################################
 
-/euler/bin/Debug
-/euler/obj/Debug
 /euler/.vs/euler/v14
-/problem-20/obj/Debug
-/problem-20/bin/Debug
 /.vs/euler/v14
-/problem-21/bin/Debug
-/problem-21/obj/Debug
-/problem-22/bin/Debug
-/problem-22/obj/Debug
+/problem-*/obj/*
+/problem-*/bin/*
