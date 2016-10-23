@@ -6,3 +6,4 @@
 /.vs/euler/v14
 /problem-*/obj/*
 /problem-*/bin/*
+*.suo
