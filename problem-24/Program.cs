@@ -14,14 +14,8 @@ namespace problem_24
                 yield return elements;
 
             foreach (var c in elements)
-            {
-                var subelements = elements.Remove(elements.IndexOf(c), 1);
-                var permutations = Permutations(subelements);
-                foreach (var permutation in permutations)
-                {
+                foreach (var permutation in Permutations(elements.Remove(elements.IndexOf(c), 1)))
                     yield return c + permutation;
-                }
-            }
         }
 
         static void Main(string[] args)
