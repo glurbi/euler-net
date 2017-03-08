@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "problem-20", "problem-20\problem-20.csproj", "{FBEED166-D5DB-4822-BB2A-ED0BEA466E54}"
 EndProject
@@ -26,6 +26,8 @@ EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "problem-30", "problem-30\problem-30.fsproj", "{0FC60E0D-B962-4F23-B157-C4AC795A8051}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "problem-31", "problem-31\problem-31.fsproj", "{21E05BCE-1951-4736-B82B-7A1AD7833318}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "problem-32", "problem-32\problem-32.fsproj", "{AC452152-4EA2-43C5-8EDD-5C8C07B9FACB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{21E05BCE-1951-4736-B82B-7A1AD7833318}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21E05BCE-1951-4736-B82B-7A1AD7833318}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21E05BCE-1951-4736-B82B-7A1AD7833318}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC452152-4EA2-43C5-8EDD-5C8C07B9FACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC452152-4EA2-43C5-8EDD-5C8C07B9FACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC452152-4EA2-43C5-8EDD-5C8C07B9FACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC452152-4EA2-43C5-8EDD-5C8C07B9FACB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
