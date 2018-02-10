@@ -7,7 +7,7 @@
     <ProjectGuid>{3E3EAE06-3603-4C9B-A2DF-239C99B62F6C}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>problem_34</RootNamespace>
-    <AssemblyName>problem_34</AssemblyName>
+    <AssemblyName>problem-34</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
