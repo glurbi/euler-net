@@ -12,8 +12,51 @@ namespace problem_34
 {
     class Program
     {
+
+        static int FillDigits(int number, int[] digits)
+        {
+            var n = number;
+            int i = 0;
+
+            while (n / 10 != 0)
+            {
+                digits[i] = n % 10;
+                n = n / 10;
+                i++;
+            }
+
+            digits[i] = n % 10;
+
+            return i + 1;
+        }
+
+        static int[] Factorial = { 1, 1, 2, 6, 24, 120, 720, 5040, 40320, 362880 };
+
         static void Main(string[] args)
         {
+            var total = -3;
+            var arr = new int[10];
+
+            foreach (var number in Enumerable.Range(0, Int32.MaxValue))
+            {
+                Array.Clear(arr, 0, 10);
+                var count = FillDigits(number, arr);
+
+                int sum = 0;
+                for (int i = 0; i < count; i++)
+                {
+                    sum += Factorial[arr[i]];
+                }
+
+                if (sum == number)
+                {
+                    Console.WriteLine(number);
+                    total += sum;
+                }
+            }
+
+            Console.WriteLine("Total: " + total);
+            Console.ReadLine();
         }
     }
 }
